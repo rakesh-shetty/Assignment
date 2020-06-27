@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+}
+
+.btn {
+  padding: 1px;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 2em;
+  border-width: 0.5px;
+  border-color: #38383870;
+  background-color: #F3F4F6;
+}
+
+.btn:hover {
+  background-color: #bababb54;
+}
+
+.follow-btn {
+  width: 220px;
+}
+
+.star-btn {
+  width: 30px;
+}
+
+.repo-search {
+  padding: 3px;
+  width: 70%;
+  border-radius: 5px;
+  border-width: 0.5px;
+}
+
+.repos-sub-menus, .profile-sub-menus, .search-filter {
+  display: flex;
+  flex-direction: row;
+}
+
+.float-right {
+  float: right;
+}
+
+.repo-filters {
+  border-radius: 5px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.header {
+  background-color: #24292E;
+  height: 50px;
+  width: 100%;
+}
+
+.text-bold {
+  font-weight: 600!important;
+}
+
+div.less-line-spacing {
+  line-height: 50%;
+}
+
+.muted-text {
+  color: #24292ea8;
+}
+
+.repo-language-color {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.link:hover {
+  cursor: pointer;
+  color: #0366d6
+}
+
+.JavaScript {
+  background-color: #F1E05A;
+}
+
+.HTML {
+  background-color: #E34C26;
+}
+
+.CSS {
+  background-color: #563D7C;
+}
